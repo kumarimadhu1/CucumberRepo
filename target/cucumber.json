@@ -1,0 +1,211 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-26T12:25:04.858Z",
+        "line": 20,
+        "name": "Search for items and then move to checkout page",
+        "description": "",
+        "id": "application-login;search-for-items-and-then-move-to-checkout-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.afterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7729000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Greencart landing page",
+            "match": {
+              "location": "stepDefinations.LoginDefination.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3419000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User search for Brinjal vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.LoginDefination.user_search_for_vegetables(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 407000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Added item to cart",
+            "match": {
+              "location": "stepDefinations.LoginDefination.added_item_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User proceed to checkout page",
+            "match": {
+              "location": "stepDefinations.LoginDefination.user_proceed_to_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5060000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify selected Brinjal item is displayed on checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.TestStepDefination.verify_selected_item_is_displayed_on_checkout_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-26T12:25:22.156Z",
+        "line": 21,
+        "name": "Search for items and then move to checkout page",
+        "description": "",
+        "id": "application-login;search-for-items-and-then-move-to-checkout-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 178000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.afterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5806000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Greencart landing page",
+            "match": {
+              "location": "stepDefinations.LoginDefination.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3235000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User search for Beetroot vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.LoginDefination.user_search_for_vegetables(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 522000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Added item to cart",
+            "match": {
+              "location": "stepDefinations.LoginDefination.added_item_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User proceed to checkout page",
+            "match": {
+              "location": "stepDefinations.LoginDefination.user_proceed_to_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5077000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify selected Beetroot item is displayed on checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.TestStepDefination.verify_selected_item_is_displayed_on_checkout_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/testlogin.feature",
+    "tags": []
+  }
+]
